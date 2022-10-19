@@ -16,4 +16,6 @@ app.get('/customers', async (req, res) => {
 })
 
 
+// some developers sent up a separate file for their routes (e.g., routes.js)
+
 app.listen(3030, () => console.log('Listening on http://localhost:3030...'))
